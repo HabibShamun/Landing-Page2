@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.sec1
+{
+    margin: 0;
+
+
+    background-color:#1f2937;
+    color: white;
+}
+
+.Header
+{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-right
+{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.mid
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.mid-left
+{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.btn-sec1
+{ 
+    padding-top: 10px;
+
+}
+.btn-sec1>button
+{
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 2px solid #3882f6;
+    
+    color: aliceblue;
+}
+.img-cat>img
+{
+  max-width: 70%;
+}
+.sec2
+{
+    padding: 50px;
+}
+.sec2>h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.total-blocks
+{ 
+
+    display: flex;
+    gap: 50px;
+    padding: 0 100px;
+    justify-content: center;
+
+}
+.block-1
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 2px solid #3882f6;
+}
+.sec3
+{
+    padding: 50px 300px;
+    background-color: rgb(173, 171, 171);
+}
+.thor
+{
+    text-align: end;
+    margin-right: 20px;
+}
+
+.sec4
+{ padding: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+.blue-box
+{   
+    max-width: 2000px;
+    padding: 40px 70px;
+    height: 50px;
+    display: flex;
+    flex-direction: Row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    background-color: #3882f6;
+    border-radius: 8px;
+   color: white;
+}
+.btn-last>button
+{
+    padding: 0 15px;
+    background-color:#3882f6 ;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+}
+
+.sec-last
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 50px;
+    background-color: #1f2937;
+    color: white;
+    
+}
+
